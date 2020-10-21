@@ -51,3 +51,39 @@ nav {
     padding: 16px 24px;
     background-color: transparent;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.hero .hero-img {
+    margin: 0 24px;
+}
+
+.description-text h1 {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 42px;
+}
+
+.description-text h1 span {
+    font-size: 64px;
+    font-weight: 600;
+    color: #CD4C4C;
+}
+
+.description-text p {
+    font-size: 16px;
+    color: #555555;
+    width: 60%;
+    margin-bottom: 18px;
+    line-height: 180%;
+}
+
+.sponsor {
+    margin: 52px 0;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+}
